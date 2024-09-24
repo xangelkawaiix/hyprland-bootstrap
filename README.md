@@ -9,6 +9,19 @@ This repository contains a bootstrap script to set up a new Arch Linux machine w
 - A fresh installation of Arch Linux. (Recommended)
 - Internet connection.
 
+> ### ⚠️ **Caution**  
+> - **Best Run on Minimal Arch Linux-based Distributions**  
+>   This script is designed to be run on minimal Arch Linux-based systems. Running it on a more customized setup may lead to conflicts or issues with existing configurations.
+> 
+> - **Configuration Overwrite Warning**  
+>   This script **does not** backup your existing user configurations. It will most likely **overwrite** or cause conflicts with any existing configurations in your home directory. Be cautious if you have custom settings already in place.
+> 
+> - **No Automatic Uninstall for Dotfiles**  
+>   The script does not include a mechanism for uninstalling or removing dotfiles. You will need to manually remove any dotfiles or configuration files added by the script from your system.
+> 
+> - **Manual Package Removal**  
+>   If you'd like to remove the packages installed by this script, you can manually inspect the `packages` file for a list of installed packages and remove them accordingly.
+
 ### Step-by-Step Instructions
 
 1. **Download the Bootstrap Script**
@@ -53,6 +66,20 @@ This repository contains a bootstrap script to set up a new Arch Linux machine w
 - **Configure Arch Linux Mirror List**
 
    The script uses `reflector` to update the Arch Linux mirror list with the fastest mirrors.
+Set Timedatectl for Dual Boot
+The script configures timedatectl to ensure proper time handling in a dual-boot setup with Windows.
+
+- **Configure GPG Agent**
+  
+   The script configures the gpg agent to use pinentry-qt for handling passphrase prompts.
+
+- **Install Starship Prompt**
+  
+   The script installs and configures the starship prompt for a modern, minimal command-line interface.
+
+- **Detect Windows for Dual Boot**
+  
+   The script runs os-prober to detect any Windows installations for dual boot.
 
 ## 🛠️ Package List
 
