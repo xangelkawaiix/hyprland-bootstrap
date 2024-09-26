@@ -176,7 +176,7 @@ grub_theme_setup() {
 # Install powerpill
 install_powerpill() {
     echo -e "\e[1;32m:: Installing powerpill... [13/13]\e[0m"
-    echo -e "\e[1;33mPowerpill is a pacman wrapper that uses parallel and segmented downloading to try to speed up downloads for Pacman. By default, Powerpill is configured to use Reflector to retrieve the current list of mirrors from the Arch Linux server's web API and use them for parallel downloads. This is to make sure that there are enough servers in the list for significant speed improvements.\e[0m"
+    echo -e "\e[1;33mPowerpill is a pacman wrapper that uses parallel and segmented downloading to try to speed up downloads for Pacman. By default, Powerpill is configured to use Reflector to retrieve the current list of mirrors from the Arch Linux server's web API and use them for parallel downloads. This is to make sure that there are enough servers in the list for significant speed improvements.\e[0m" | fold -s -w 80    
     read -p "Do you want to install powerpill? [y/n]: " install_powerpill
     if [[ "$install_powerpill" == "y" ]]; then
         yay -S --needed --noconfirm powerpill
