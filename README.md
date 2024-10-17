@@ -91,9 +91,9 @@ The `packages` file contains a list of packages organized into categories. Each 
 
 If you find this project helpful and would like to support me, consider buying me a coffee on Trakteer:
 
-[![Trakteer.id](https://img.shields.io/badge/Trakteer.id-%23FFDD00?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAABJ1JREFUWIXtl01oE1EQx3/3Zie72U02m4BQqVQKpYig4EMQfCk+Gh8MPlQf+mB8MChWfCg+BB8EfDBWfAiqPlQfgg9BqVQKpVIoFKEUCgWbm81udv6Zne1lN9lsIiHi5CfZnd+8N2/mzZv3ZiYi/weZ75H5Hpnvkfke/28EwAxmMIMZzGAGM5jBDP4HMgMAM5jBDGYwgxnMYAYz+B/IDADMYAYzmMEMZjCDGfzPZAYAZjCDGcxgBjOYwQx+BzIDADOYwQxmMIMZzGAGM/gfyAwAzGAGM5jBDGYwgxn8D2QGAGYwgxnMYAYzmMEMZvA/kP8Bk6nY0MzHF+MAAAAASUVORK5CYII=)](https://trakteer.id/nishi.miya/tip)
+<a href="https://trakteer.id/nishi.miya" target="_blank"><img id="wse-buttons-preview" src="https://cdn.trakteer.id/images/embed/trbtn-red-1.png?date=18-11-2023" height="40" style="border: 0px; height: 40px; --darkreader-inline-border-top: 0px; --darkreader-inline-border-right: 0px; --darkreader-inline-border-bottom: 0px; --darkreader-inline-border-left: 0px;" alt="Trakteer Saya" data-darkreader-inline-border-top="" data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left=""></a>
 
 ## 📜 License
 
-This project is licensed under the UNLICENSE. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the [UNLICENSE](LICENSE).
 
